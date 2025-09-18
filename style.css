@@ -1,9 +1,15 @@
 body {
-    background-color: crimson;
-    color:whitesmoke;
+    background-color: crimson;    /*cor de fundo da página*/
+    color:whitesmoke;     /*cor da escrita*/
 }
 
 h1 {
-    font-size: 30px;
-    text-align: center;
+    font-size: 30px;   /*tamanho da fonte*/
+    text-align: center;      /*centralizado*/
+    text-transform: uppercase;    /*letras maiúsculas*/
+}
+
+p {
+    font-size: 16px;
+    color: whitesmoke;
 }
