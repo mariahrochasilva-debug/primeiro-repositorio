@@ -3,6 +3,13 @@ body {
     color:whitesmoke;     /*cor da escrita*/
 }
 
+header {
+    border: solid 2px whitesmoke;
+    font-size: 32px;
+    padding: 10px;
+    color: whitesmoke;
+}
+
 h1 {
     font-size: 30px;   /*tamanho da fonte*/
     text-align: center;      /*centralizado*/
