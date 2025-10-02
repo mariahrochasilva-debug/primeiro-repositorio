@@ -1,6 +1,7 @@
 body {
     background-color: crimson;    /*cor de fundo da página*/
     color:whitesmoke;     /*cor da escrita*/
+    font-family: "Ubuntu", sans-serif ;
 }
 
 header {
