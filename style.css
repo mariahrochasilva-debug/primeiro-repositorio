@@ -2,6 +2,8 @@ body {
     background-color: crimson;    /*cor de fundo da página*/
     color:whitesmoke;     /*cor da escrita*/
     font-family: "Ubuntu", sans-serif ;
+    margin: 0px;
+    margin-bottom: 100px;
 }
 
 header {
@@ -11,7 +13,7 @@ header {
     color: whitesmoke;
 }
 
-section {
+.chamada {
     background-color: #ff0033; /*cor escolhida*/
     padding-bottom: 80px;
     padding-top: 80px;
@@ -32,4 +34,31 @@ h1 {
 p {
     font-size: 16px;
     color: whitesmoke;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+
+}
+
+.categoria-videos {
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(180, 79, 149);
+}
+
+.categoria h2 {
+    color:rgb(63, 24, 51);
 }
